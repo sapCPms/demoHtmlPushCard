@@ -41,6 +41,15 @@
       "description": "SAPUI5 Test Resources"
     },
     {
+      "path": "/mobileCards",
+      "target": {
+        "type": "destination",
+        "name": "mobileservices",
+        "entryPath": "mobileservices"
+      },
+      "description": "mobileCards"
+    },
+    {
       "path": "/mobileservices",
       "target": {
         "type": "destination",
@@ -49,6 +58,5 @@
       "description": "mobileservices"
     }
   ],
-  "welcomeFile": "/webapp/test/flpSandbox.html",
   "sendWelcomeFileRedirect": true
 }
