@@ -46,7 +46,7 @@ sap.ui.define([
 		},
 
 		onShareToC2GPress: function(oEvent) {
-			var sCardTypeGUID = "58E486A8-C5FA-4AB8-9908-B0D6EB3C4F7B";
+			var sCardTypeGUID = "YOUR_CARD_UID";
 
 			if (!sCardTypeGUID || sCardTypeGUID.length === 0) {
 				sap.m.MessageToast.show("You must set the Template ID first");
